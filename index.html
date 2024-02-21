@@ -5,10 +5,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Party Time</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .cta-button {
+            background-color: #ff5a5f;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #e54247;
+        }
+
+        .main-content {
+            padding-bottom: 50px;
+            /* Adjust as needed */
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to PartyTime Event Handling</h1>
+            <p>Your one-stop solution for organizing unforgettable parties!</p>
+        </div>
+    </header>
 
+    <div class="navbar">
+        <div class="container">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#memories">Memories</a>
+            <a href="#services">Services</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+
+            <section id="home" class="section">
+                <img src="https://images.pexels.com/photos/1047442/pexels-photo-1047442.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="PartyTime Event Handling" class="">
+                <a href="#services" class="cta-button">Explore Our Services</a>
+            </section>
+
+            <section id="about" class="section">
+                <h2>About Us</h2>
+                <p>PartyTime Event Handling specializes in creating memorable experiences for all types of events, from
+                    birthdays to corporate gatherings. Our team of experienced professionals will handle every aspect of
+                    your event, ensuring it's a success from start to finish.</p>
+            </section>
+
+            <section id="memories" class="section">
+                <h2>Memories</h2>
+                <div class="">
+                    <div class="">
+                        <img src="https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Event Image 1">
+                    </div>
+                    <div class="">
+                        <img src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Event Image 2">
+                    </div>
+                    <div class="g">
+                        <img src="https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Event Image 3">
+                    </div>
+                    <div class="">
+                        <img src="https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Event Image 4">
+                    </div>
+                    <div class="">
+                        <img src="https://images.pexels.com/photos/1128783/pexels-photo-1128783.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Event Image 5">
+                    </div>
+                    <div class="">
+                        <img src="https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Event Image 6">
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="">
+                <h2>Services</h2>
+                <p>From venue selection and decoration to catering and entertainment, we offer a comprehensive range of
+                    services to meet your specific needs. Whether you're planning an intimate gathering or a large-scale
+                    celebration, we've got you covered.</p>
+                <div class="">
+                    <img src="https://images.pexels.com/photos/169189/pexels-photo-169189.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Venue Selection">
+                    <h3>Venue Selection</h3>
+                    <p>We help you find the perfect venue for your event, whether it's a cozy space for a small
+                        gathering or a grand hall for a large celebration.</p>
+                </div>
+                <div class="">
+                    <img src="https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Decoration">
+                    <h3>Decoration</h3>
+                    <p>Our team of decorators will transform your venue into a stunning setting that perfectly matches
+                        your theme and vision.</p>
+                </div>
+                <div class="">
+                    <img src="https://images.pexels.com/photos/7245482/pexels-photo-7245482.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Catering">
+                    <h3>Catering</h3>
+                    <p>From appetizers to desserts, our catering services ensure that your guests are treated to
+                        delicious food and beverages throughout the event.</p>
+                </div>
+                <div class="">
+                    <img src="https://images.pexels.com/photos/625644/pexels-photo-625644.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Entertainment">
+                    <h3>Entertainment</h3>
+                    <p>We offer a variety of entertainment options, including live music, DJs, and interactive
+                        activities, to keep your guests entertained and engaged.</p>
+                </div>
+                <div class="">
+                    <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Event Planning">
+                    <h3>Event Planning</h3>
+                    <p>Our experienced event planners will take care of every detail, from creating timelines to
+                        coordinating vendors, so you can relax and enjoy your event.</p>
+                </div>
+            </section>
+
+            <section id="packages" class="">
+                <h2>Packages</h2>
+                <div class="">
+                    <img src="https://via.placeholder.com/100" alt="Basic Package">
+                    <h3>Basic Package</h3>
+                    <p>Includes venue selection, decoration, and catering services for up to 50 guests.</p>
+                    <p>Price: $1000</p>
+                </div>
+                <div class="">
+                    <img src="https://via.placeholder.com/100" alt="Standard Package">
+                    <h3>Standard Package</h3>
+                    <p>Includes venue selection, decoration, catering, and entertainment services for up to 100 guests.
+                    </p>
+                    <p>Price: $2000</p>
+                </div>
+                <div class="">
+                    <img src="https://via.placeholder.com/100" alt="Premium Package">
+                    <h3>Premium Package</h3>
+                    <p>Includes venue selection, decoration, catering, entertainment, and event planning services for up
+                        to 200 guests.</p>
+                    <p>Price: $5000</p>
+                </div>
+                <div class="">
+                    <img src="https://via.placeholder.com/100" alt="Custom Package">
+                    <h3>Custom Package</h3>
+                    <p>Customize your package based on your specific needs and preferences. Contact us for details.</p>
+                    <p>Price: Varies</p>
+                </div>
+            </section>
+
+            <section id="contact" class="">
+                <h2>Contact Us</h2>
+                <p>Ready to start planning your next event? Fill out the form below and we'll get back to you as soon as
+                    possible!</p>
+                <div class="">
+                    <form action="#" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <p>Email: info@partytime.com</p>
+                <p>Phone: 123-456-7890</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="">
+            <p>&copy; 2024 PartyTime Event Handling. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
